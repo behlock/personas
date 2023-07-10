@@ -3,7 +3,7 @@
 		test \
 
 run:
-	poetry run python main.py ${FILE}
+	poetry run python main.py
 
 lint:
 	bin/run-black.sh && \

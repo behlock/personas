@@ -1,11 +1,14 @@
 [tool.poetry]
-name = "the-advisory-board"
+name = "personas"
 version = "0.1.0"
-description = "the-advisory-board"
+description = "personas"
 authors = ["behlock"]
 
 [tool.poetry.dependencies]
 python = "^3.10.0"
+openai = "^0.27.8"
+python-dotenv = "^1.0.0"
+tiktoken = "^0.4.0"
 
 [tool.poetry.dev-dependencies]
 black = {version = ">=21",allow-prereleases = true}
